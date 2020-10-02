@@ -21,7 +21,7 @@ Completely self-sustained **hands-free** Instagram automation bot which operates
 
 The main object is to imitate a real user browsing & use, which randomly performs each task.
 
-_Each post is created by blending two random images from Pixabay latest keyword search results (random search keyword from a list), and adding a text (quotes from csv) to the final blended image result._
+_Each post is created by blending two random images from Pixabay latest keyword search results (random search keyword from a list), and adding a text (quote from csv file) to the final blended image result._
 
 _Each text quote is created by a random chosen font, with a random chosen size and a random chosen color._
 
