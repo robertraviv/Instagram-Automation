@@ -51,11 +51,11 @@ Main functions default values:
 
 **Follow new people with specific attributes:** `Object.discover_people(follow_max=11, has_max_followers=15000, has_min_followers=450, follow_ratio=2)`
 
+_* follow_ratio=2 attribute is a user's following / followers ratio._
+
 **Unfollow non-followrs:** `Object.unfollow(unfollow=12)`
 
 **Explore search feed to like posts and follow accounts:** `Object.explore_like_follow(explore_times=3, to_follow=True)`
-
-_* follow_ratio=2 attribute is a user's following / followers ratio._
 
 
 ## Disclaimer
