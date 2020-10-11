@@ -1,6 +1,6 @@
-![Python][python-version]
-![Selenium][selenium]
-![pixabay][pixabay]
+![python-version]
+![Selenium]
+![pixabay]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -43,19 +43,25 @@ Add popular quotes (or any) list to CSV file (example.csv) and rename file to '`
 
 **That's it! On the default current settings each task is excuted randomly every few hours.**
 
-## Usage
+## Usage (main functions default values)
 
-Main functions default values:
+**Building a new post and posting:**
 
-**Building a new post and posting:** `Object.newpost()`
+`Object.newpost()`
 
-**Follow new people with specific attributes:** `Object.discover_people(follow_max=11, has_max_followers=15000, has_min_followers=450, follow_ratio=2)`
+**Follow new people with specific attributes:**
+
+`Object.discover_people(follow_max=11, has_max_followers=15000, has_min_followers=450, follow_ratio=2)`
 
 _* follow_ratio=2 attribute is a user's following / followers ratio._
 
-**Unfollow non-followrs:** `Object.unfollow(unfollow=12)`
+**Unfollow non-followrs:**
 
-**Explore search feed to like posts and follow accounts:** `Object.explore_like_follow(explore_times=3, to_follow=True)`
+`Object.unfollow(unfollow=12)`
+
+**Explore search feed to like posts and follow accounts:**
+
+`Object.explore_like_follow(explore_times=3, to_follow=True)`
 
 
 ## Disclaimer
@@ -78,9 +84,9 @@ Cotributers are welcome to add more features and improvements.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[selenium]: https://img.shields.io/badge/Built%20With-selenium-yellow?style=flat-square
+[selenium]: https://img.shields.io/badge/built%20With-Selenium-yellow?style=flat-square
 [contributers-welcome]: https://img.shields.io/badge/Contributers-Welcome-orange?style=flat-square
 [python-version]: https://img.shields.io/badge/python-3.8-blue?style=flat-square&logo=python
 [contributors-shield]: https://img.shields.io/github/contributors/
 [image-creation]: src/post_img_creation.png
-[pixabay]: https://img.shields.io/badge/API-pixabay-brightgreen?style=flat-square&logo=pixabay
+[pixabay]: https://img.shields.io/badge/API-pixabay-success?style=flat-square&logo=pixabay
