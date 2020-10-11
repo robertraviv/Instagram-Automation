@@ -45,23 +45,23 @@ Add popular quotes (or any) list to CSV file (example.csv) and rename file to '`
 
 ## Usage (main functions default values)
 
-**Building a new post and posting:**
+- **Building a new post and posting:**
 
-`Object.newpost()`
+  - `Object.newpost()`
 
-**Follow new people with specific attributes:**
+- **Follow new people with specific attributes:**
 
-`Object.discover_people(follow_max=11, has_max_followers=15000, has_min_followers=450, follow_ratio=2)`
+  - `Object.discover_people(follow_max=11, has_max_followers=15000, has_min_followers=450, follow_ratio=2)`
 
-_* follow_ratio=2 attribute is a user's following / followers ratio._
+  - _* follow_ratio=2 attribute is a user's following / followers ratio._
 
-**Unfollow non-followers:**
+- **Unfollow non-followers:**
 
-`Object.unfollow(unfollow=12)`
+  - `Object.unfollow(unfollow=12)`
 
-**Explore search feed to like posts and follow accounts:**
+- **Explore search feed to like posts and follow accounts:**
 
-`Object.explore_like_follow(explore_times=3, to_follow=True)`
+  - `Object.explore_like_follow(explore_times=3, to_follow=True)`
 
 
 ## Disclaimer
