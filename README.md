@@ -84,7 +84,7 @@ Cotributers are welcome to add more features and improvements.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[selenium]: https://img.shields.io/badge/built%20With-Selenium-yellow?style=flat-square
+[selenium]: https://img.shields.io/badge/built%20with-Selenium-yellow?style=flat-square
 [contributers-welcome]: https://img.shields.io/badge/Contributers-Welcome-orange?style=flat-square
 [python-version]: https://img.shields.io/badge/python-3.8-blue?style=flat-square&logo=python
 [contributors-shield]: https://img.shields.io/github/contributors/
