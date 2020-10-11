@@ -124,6 +124,9 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+# webdriver
+.wdm
+
 # specific to repo
 quotes.csv
 pixabay_with_sessions.py

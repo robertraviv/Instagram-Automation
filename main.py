@@ -10,6 +10,7 @@ from pywinauto.application import Application
 import shutil
 import random
 import schedule
+from webdriver_manager.chrome import ChromeDriverManager
 
 PWD = config('PWD')
 USER = config('USER')
@@ -27,7 +28,11 @@ class Instagram:
         self.options.add_argument("--auto-open-devtools-for-tabs")
         self.options.add_experimental_option(
             "mobileEmulation", self.mobile_emulation)
-        self.driver = webdriver.Chrome(options=self.options)
+
+        # set chromedriver download path to .wdm folder
+        os.environ['WDM_LOCAL'] = '1'
+        self.driver = webdriver.Chrome(
+            ChromeDriverManager().install(), options=self.options)
 
         self.driver.get("https://instagram.com")
         try:

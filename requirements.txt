@@ -1,0 +1,7 @@
+pandas
+Pillow
+python-decouple
+pywinauto
+schedule
+selenium
+webdriver-manager

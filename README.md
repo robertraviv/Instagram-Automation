@@ -1,11 +1,11 @@
 ![Python][python-version]
 ![Selenium][selenium]
-![contributers-welcome][contributers-welcome]
+![pixabay][pixabay]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="src/instagram_bot.png" alt="Logo" width="120">
+    <img src="src/instagram_bot.png" alt="Logo" width="140">
   </a>
 </p>
 
@@ -83,3 +83,4 @@ Cotributers are welcome to add more features and improvements.
 [python-version]: https://img.shields.io/badge/python-3.8-blue?style=flat-square&logo=python
 [contributors-shield]: https://img.shields.io/github/contributors/
 [image-creation]: src/post_img_creation.png
+[pixabay]: https://img.shields.io/badge/API-pixabay-brightgreen?style=flat-square&logo=pixabay
