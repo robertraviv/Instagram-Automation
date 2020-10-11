@@ -55,7 +55,7 @@ Add popular quotes (or any) list to CSV file (example.csv) and rename file to '`
 
 _* follow_ratio=2 attribute is a user's following / followers ratio._
 
-**Unfollow non-followrs:**
+**Unfollow non-followers:**
 
 `Object.unfollow(unfollow=12)`
 
