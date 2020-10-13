@@ -67,6 +67,7 @@ Add popular quotes (or any) list to CSV file (example.csv) and rename file to '`
 ## Disclaimer
 
 This was built for educational purposes and any misuse can lead to an Instagram account ban/deletion.
+
 This project is in no way affiliated with, authorized, maintained or endorsed by Instagram or any of its affiliates or
 subsidiaries. This is an independent and unofficial project.
 
